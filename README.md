@@ -2,6 +2,8 @@
 
 > A PHP library for interfacing with the Mandrill API
 
+A fork from shareworks that deleted their repository. Not our code
+
 ## Tests
 
 You can test the component by issuing the following commands:
