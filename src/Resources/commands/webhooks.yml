@@ -1,0 +1,24 @@
+webhook.create:
+  path: /webhooks/add
+  parameters: [key, url, ?description, ?events]
+  response: Shareworks\Component\Mandrill\Webhook\Webhook
+
+webhook.get:
+  path: /webhooks/info
+  parameters: [key, id]
+  response: Shareworks\Component\Mandrill\Webhook\Webhook
+
+webhook.list:
+  path: /webhooks/list
+  parameters: [key]
+  response: array<Shareworks\Component\Mandrill\Webhook\Webhook>
+
+webhook.update:
+  path: /webhooks/update
+  parameters: [key, id, url, ?description, ?events]
+  response: Shareworks\Component\Mandrill\Webhook\Webhook
+
+webhook.delete:
+  path: /webhooks/delete
+  parameters: [key, id]
+  response: Shareworks\Component\Mandrill\Webhook\Webhook

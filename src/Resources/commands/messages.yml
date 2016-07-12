@@ -1,0 +1,9 @@
+message.send:
+  path: /messages/send
+  parameters: [key, message, ?async, ?ip_pool, ?send_at]
+  response: array<Shareworks\Component\Mandrill\Email\StatusResponse>
+
+message.sendTemplate:
+  path: /messages/send-template
+  parameters: [key, template, template_content, message, ?async, ?ip_pool, ?send_at]
+  response: array<Shareworks\Component\Mandrill\Email\StatusResponse>

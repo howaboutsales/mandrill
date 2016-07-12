@@ -1,0 +1,4 @@
+foo.bar:
+  path: /foo/bar
+  parameters: [req_param, ?opt_param]
+  response: Foo\Bar
